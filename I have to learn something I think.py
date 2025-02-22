@@ -1,3 +1,5 @@
+## This file reads umm A.txt, remove symbols, space, etc and make it only "-" in between, and put the output in B.txt
+
 def main():
     original = open("A.txt","r", encoding="utf-8")
     olines = original.read()
